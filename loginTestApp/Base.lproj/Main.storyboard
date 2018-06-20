@@ -67,6 +67,7 @@
                     </view>
                     <connections>
                         <outlet property="errorMessageLabel" destination="hSR-Rk-dLn" id="C32-Rs-HD4"/>
+                        <outlet property="loginButton" destination="BvJ-2P-BQE" id="Pzq-0g-iAV"/>
                         <outlet property="passwordTextField" destination="naa-7Q-TKc" id="yAS-Xw-Bd4"/>
                         <outlet property="usernameTextField" destination="ys5-Fz-3Bg" id="UvM-HE-jad"/>
                     </connections>
