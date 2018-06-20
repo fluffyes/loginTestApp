@@ -50,4 +50,24 @@ class LoginViewControllerTests: XCTestCase {
 		XCTAssertFalse(loginVC.errorMessageLabel.isHidden)
 		XCTAssertEqual(loginVC.errorMessageLabel.text, "Username cannot be empty")
 	}
+	
+	func testPasswordErrorShouldShowWhenPasswordIsBlankAndUsernameIsNotBlank(){
+		let storyboard = UIStoryboard(name: "Main", bundle: nil)
+		let loginVC = storyboard.instantiateInitialViewController() as! LoginViewController
+		
+		// call this so that the view controller's view will be instantiated
+		// else its view wont load and we cant access the labels / buttons on it
+		let _ = loginVC.view
+		
+		// simulate fill in username text field
+		loginVC.usernameTextField.text = "axelkee"
+		
+		// simulate login button tap by calling the IBAction method
+		loginVC.loginTapped(loginVC.loginButton)
+		
+		// Error message should appear and have text 'Username cannot be empty'
+		XCTAssertFalse(loginVC.errorMessageLabel.isHidden)
+		XCTAssertEqual(loginVC.errorMessageLabel.text, "Password cannot be empty")
+	}
+	
 }
