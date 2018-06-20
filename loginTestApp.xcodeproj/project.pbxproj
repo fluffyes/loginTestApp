@@ -11,8 +11,8 @@
 		062766D520DA56F800E852EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 062766D320DA56F800E852EA /* Main.storyboard */; };
 		062766D720DA56F800E852EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 062766D620DA56F800E852EA /* Assets.xcassets */; };
 		062766DA20DA56F800E852EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 062766D820DA56F800E852EA /* LaunchScreen.storyboard */; };
-		062766E520DA56F800E852EA /* loginTestAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062766E420DA56F800E852EA /* loginTestAppTests.swift */; };
 		062766F020DA5B2900E852EA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062766EF20DA5B2900E852EA /* LoginViewController.swift */; };
+		062766F820DA66D000E852EA /* LoginViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062766F720DA66D000E852EA /* LoginViewControllerTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,9 +33,9 @@
 		062766D920DA56F800E852EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		062766DB20DA56F800E852EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		062766E020DA56F800E852EA /* loginTestAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = loginTestAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		062766E420DA56F800E852EA /* loginTestAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginTestAppTests.swift; sourceTree = "<group>"; };
 		062766E620DA56F800E852EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		062766EF20DA5B2900E852EA /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		062766F720DA66D000E852EA /* LoginViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewControllerTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,8 +90,8 @@
 		062766E320DA56F800E852EA /* loginTestAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				062766E420DA56F800E852EA /* loginTestAppTests.swift */,
 				062766E620DA56F800E852EA /* Info.plist */,
+				062766F720DA66D000E852EA /* LoginViewControllerTests.swift */,
 			);
 			path = loginTestAppTests;
 			sourceTree = "<group>";
@@ -208,7 +208,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				062766E520DA56F800E852EA /* loginTestAppTests.swift in Sources */,
+				062766F820DA66D000E852EA /* LoginViewControllerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
